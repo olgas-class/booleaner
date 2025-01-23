@@ -1,11 +1,101 @@
+/* RESET */
+/* * -> seleziona ogni elemento in pagina */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+}
+
+/* HEADER */
 .header {
-  background-color: lightblue;
+  background-color: #add8e6;
+  background-image: url(../img/pattern.png);
+  background-size: 300px;
   /* padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 10px; */
-  padding: 30px 10px;
+  padding: 30px 0px;
 }
 
 #header-logo {
   width: 150px;
+}
+
+/* MAIN */
+.square {
+  width: 400px;
+  height: 400px;
+  background-color: aquamarine;
+}
+
+/* Article section */
+.main-title {
+  font-size: 38px;
+  margin-top: 20px;
+}
+
+.author {
+  color: #808080;
+}
+
+.author-name {
+  color: #0000ff;
+}
+
+.date {
+  color: #808080;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+.images-block {
+  margin-bottom: 16px;
+}
+
+.caption {
+  font-size: 12px;
+}
+
+.content-paragraph {
+  margin-bottom: 16px;
+}
+
+.highlight {
+  font-weight: 400;
+  background-color: yellow;
+}
+
+.article-list li {
+  margin-left: 18px;
+}
+
+/* Table section */
+.article-table .large-col {
+  width: 50%;
+}
+
+/* tr che sta all'interno del thead ---> c'è spazio tra di loro */
+thead tr {
+  background-color: lightseagreen;
+  color: white;
+  text-align: left;
+}
+
+/* tr che ha la classe odd-row ---> non c'è spazio tra di loro */
+tr.odd-row {
+  background-color: lightblue;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #0000ff;
+  text-align: center;
+  color: white;
+  padding: 20px 0px;
 }
